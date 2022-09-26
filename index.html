@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <h3>Selecione as cores</h3>
+    <div class="divColors">
+      <input type="color" id="color01" />
+      <input type="color" id="color02" />
+    </div>
+
+    <h3>Selecione a direção</h3>
+
+    <div class="divDirection">
+      <i data-dir="to top" class='bx bx-up-arrow-circle active'></i>
+      <i data-dir="to top right" class='bx bx-right-top-arrow-circle'></i>
+      <i data-dir="to right" class='bx bx-right-arrow-circle'></i>
+      <i data-dir="to bottom right" class='bx bx-right-down-arrow-circle'></i>
+      <i data-dir="to bottom" class='bx bx-down-arrow-circle'></i>
+      <i data-dir="to bottom left" class='bx bx-left-down-arrow-circle'></i>
+      <i data-dir="to left" class='bx bx-left-arrow-circle'></i>
+      <i data-dir="to top left" class='bx bx-left-top-arrow-circle'></i>
+    </div>
+
+    <button>Gerar</button>
+
+    <textarea  cols="30" rows="5"></textarea>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
